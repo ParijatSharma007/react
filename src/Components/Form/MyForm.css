@@ -1,0 +1,63 @@
+.form_class{
+    padding: 50px 20px;
+    /* display: flex; */
+    width: 800px;
+    background: #818488;
+    margin: 100px auto;
+    height: auto;
+    border-radius: 20px 60px;
+    box-shadow: 5px 20px 20px 10px rgba(0, 0, 0, 0.5)
+
+}
+
+.form_class h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(236, 230, 230);
+    padding-bottom: 30px;
+    text-shadow: 2px 2px;
+}
+.form_class .my_form .my_input{
+    padding-bottom: 20px;
+}
+.form_class .my_form .my_input label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.form_class .my_form .my_input input{
+    width: 100%;
+    padding: 15px 0;
+    border: transparent;
+    
+    border-radius: 2px 14px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.form_class .my_form .my_input input:focus {
+    outline: none;
+}
+
+.form_class .my_form .my_input input:hover{
+    border: 1px solid #000000;
+}
+.form_class .my_form .buttom_sub{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_class .my_form .buttom_sub button{
+    padding: 10px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    transition: 0.5s;
+    width: 200px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+}
+.form_class .my_form .buttom_sub button:hover{
+    background-color: #ffffff;
+    color: #111010;
+}
